@@ -1,0 +1,11 @@
+/* day样式主题 */
+body.day .themeBox {
+  background-color: #fff;
+  border-bottom: 1px solid rgb(241, 241, 241);
+}
+/* dark样式主题 */
+body.dark .themeBox {
+  background-color: #000;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}

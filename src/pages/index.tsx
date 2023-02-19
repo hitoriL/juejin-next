@@ -2,11 +2,11 @@ import Head from 'next/head'
 // import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Layout from '@/components/Layout'
 import RightSideBar from '@/components/RightSideBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
-import Layout from '@/components/Layout'
 
 
 export default function Home() {
@@ -20,6 +20,7 @@ export default function Home() {
         <link rel="icon" href="/juejinlogo.svg" />
       </Head>
       <main className={styles.main}>
+        <Layout></Layout>
         <h1>
         这是掘金主页！！！
         </h1>
