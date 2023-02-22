@@ -1,11 +1,11 @@
-import Test from './Test';
+// import Test from './Test';
 
 import TopNav from "./TopNav";
 
 const Layout = () => {
   return (<div>
     <TopNav></TopNav>
-    <Test></Test>
+    {/* <Test></Test> */}
     </div>);
 }
 
